@@ -5,6 +5,7 @@ Features:
  * Syntax Checker: Support ``pragma experimental <feature>;`` to turn on experimental features.
  * Static Analyzer: Warn about large storage structures.
  * Metadata: Store experimental flag in metadata CBOR.
+ * Optimizer: Add new optimization step to remove unused ``JUMPDEST``s.
  * Type Checker: More detailed error message for invalid overrides.
 
 Bugfixes:
